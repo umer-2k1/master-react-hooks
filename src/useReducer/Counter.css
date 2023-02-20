@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.counter-box {
+  background-color: #f1f5f8;
+  background-color: #293241;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  color: white;
+}
+
+.counter-heading {
+  font-size: 50px;
+  font-weight: 800;
+
+}
+
+.counter-box-number {
+  font-size: 80px;
+  font-weight: 900;
+}
+button:hover{  
+  color: #fff;
+}
+
+.decrease-button {
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  width: 120px;
+  height: 44px;
+  border-width: 0px;
+  
+}
+
+.reset-button {
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  width: 90px;
+  height: 44px;
+  border-width: 0px;
+}
+
+.increase-button {
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  width: 120px;
+  height: 44px;
+  border-width: 0px;
+}
+
+.decrease-button {
+  background-color: #BB486C;
+  background-color:red;
+}
+
+.increase-button {
+  background-color: #73C032;
+}
+
+.reset-button {
+  background-color: blue;
+
+}
+
+.reset-button:hover {
+  background-color: rgb(3, 3, 207);
+
+}
